@@ -1,0 +1,162 @@
+body {
+  background-image: url("images/MB.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-color: #00ADB5;
+  font-family: avenir;
+  color: #EEEEEE;
+  font-size: 18px;
+}
+
+h3, h2 {
+  color: #00ADB5;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  line-height: 10px;
+}
+
+.fa-brands {
+  color: #EEEEEE;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 5px;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+
+.fa-brands:hover {
+  color: grey;
+  font-size: 50px;
+}
+
+.card {
+  background-color: rgba(34, 40, 49, 0.5);
+  padding : 30px 150px 30px 150px;
+  margin : 50px 350px 50px 350px;
+  border : solid white;
+  text-align: center;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 30px;
+}
+
+.btn-challenge {
+  background-color: #00ADB5;
+  color: #393E46;
+  text-decoration: none;
+  transition: 0.5 ease;
+  padding: 5px;
+  margin: 35px;
+  border-radius: 25px;
+}
+
+.btn-challenge:hover {
+  color: black;
+  font-size: 20px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid gray;
+  box-shadow: 6px 3px 3px black;
+  object-fit: cover;
+}
+
+.social {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(34, 40, 49, 0.5);
+  padding: 10px 175px 10px 175px;
+  margin: 50px 350px 50px 350px;
+  border: solid white;
+  text-align: center;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 30px;
+}
+
+.social li {
+  display: inline;
+  text-align: center;
+  padding: 0;
+}
+
+.intro-hobbies {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(34, 40, 49, 0.5);
+  padding : 10px 30px 10px 30px;
+  margin : 10px 350px 10px 350px;
+  border : solid white;
+  text-align: center;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 30px;
+}
+
+.hobbies {
+  font-family: "Roboto", sans-serif;
+  background-color: #222831;
+  padding : 10px 50px 10px 50px;
+  margin : 10px 50px 10px 50px;
+  border : solid white;
+  text-align: center;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 30px;
+}
+
+
+.hobbies:hover {
+  background-color: #2d353f;
+  transform: scale(1.05);
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .social {
+    width: 700px;
+  }
+  .hobbies {
+    width: 700px;
+  }
+  .card {
+    width: 700px;
+  }
+  body {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .social {
+    width: 500px;
+  }
+  .hobbies {
+    width: 500px;
+  }
+  .card {
+    width: 500px;
+  }
+  body {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .social {
+    width: 300px;
+  }
+  .hobbies {
+    width: 300px;
+  }
+  .card {
+    width: 300px;
+  }
+  body {
+    width: 500px;
+  }
+}
+
+ul {
+  padding-left: 0;
+}
